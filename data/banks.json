@@ -1,0 +1,29 @@
+[{
+	"name": "American First - Kent Station",
+	"address": "1289 Station DR",
+	"cityState": "Kent, WA",
+	"zip": "98032",
+  "thumb": "content/img/bank-kent.jpg",
+	"saturday": true
+}, {
+	"name": "American First - Downtown Seattle",
+	"address": "123 Main St",
+	"cityState": "Seattle, WA",
+	"zip": "98121",
+  "thumb": "content/img/bank-seattle.jpg",
+	"saturday": false
+}, {
+	"name": "American First - Tacoma",
+	"address": "2109 Pacific Ave",
+	"cityState": "Tacoma, WA",
+	"zip": "98404",
+  "thumb": "content/img/bank-tacoma.jpg",
+	"saturday": true
+}, {
+	"name": "American First - Burien",
+	"address": "15836 1st Ave",
+	"cityState": "Burien, WA",
+	"zip": "98148",
+  "thumb": "content/img/bank-burien.jpg",
+	"saturday": false
+}]

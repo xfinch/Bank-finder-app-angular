@@ -1,0 +1,11 @@
+<div class="content">
+
+  <button ng-click="orderByName='name'">Order by name</button>
+  <button ng-click="closedSaturday=true">Open Saturday</button>
+
+  <input ng-model="search" placeholder="Enter Zip Code (try these 98121, 98404, 98032)"/>
+
+  <ul>
+    <li ng-repeat="bank in banks | orderBy: orderByName | filter: search" ng-hide="closedSaturday==!{{bank.saturday}}"><div class="row location"><div class="col-xs-6 col-sm-3 col-md-3 col-lg-3"><img  ng-src="{{bank.thumb}}"></div><div class="col-xs-6 col-sm-9 col-md-9 col-lg-9"><div class="bank_name">{{bank.name}}</div><div class="bank_address">{{bank.address}}<br>{{bank.cityState}}<br>{{bank.zip}}</div></div></div></li>
+  </ul>
+</div>

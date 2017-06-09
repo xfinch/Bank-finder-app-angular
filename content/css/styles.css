@@ -17,7 +17,7 @@ h1,h2,h3{
 }
 
 #menu-bar{
-  background: crimson;
+  background: #446CB3;
   color: #fff;
   padding: 10px;
 }
@@ -50,7 +50,9 @@ main{
   margin: 30px auto;
   border-radius: 10px;
 }
-
+.container {
+  padding: 20px;
+}
 .content{
   padding: 20px;
 }
@@ -66,7 +68,9 @@ main{
   box-shadow: 2px 2px 2px rgba(20,20,20,0.1);
   font-size: 16px;
 }
-
+.content button{
+  background: #E4F1FE;
+}
 .content button:nth-child(2){
   float: right;
 }
@@ -93,12 +97,12 @@ main{
   font-size: 22px;
 }
 
-.content input{
+.content input, .content textarea{
   width: 90%;
   padding: 10px 5%;
   border-radius: 10px;
   border: 2px solid #ddd;
-  margin: 10px 0;
+  margin: 10px auto;
 }
 
 .content input[type="submit"]:last-child{
@@ -107,6 +111,39 @@ main{
   margin: 15px auto;
 }
 
+/*form validation*/
+input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched{
+  border: solid 3px red;
+}
+input.ng-valid, textarea.ng-valid{
+  border: solid 3px #1E824C;
+}
+input.ng-untouched, textarea.ng-untouched{
+  border: 2px solid #ddd;
+}
+input[disabled="disabled"]{
+  opacity: 0.4;
+  cursor: not-allowed !important;
+}
+
+
+.bank_name{
+  font-size: 20px;
+  color: #3A539B;
+}
+.bank_address{
+  color: #BFBFBF;
+  font-size: 16px;
+}
+.ng-scope img {
+    float: left;
+}
+.feature-description{
+  font-size: 12px;
+}
+.location{
+  height: 175px;
+}
 .remove{
   float: right;
   padding: 5px;
